@@ -129,6 +129,25 @@ ul{
 .header-contact:focus{
     color: var(--main-color);
 }
+.header-contact-item{
+    display: flex;
+}
+
+.header-contact-icon-link{
+    align-items: center;
+    margin-right: 10px;
+    color: var(--rare-color);
+    text-decoration: none;
+}
+.header-contact-icon{
+    fill: currentColor;
+}
+
+.header-contact-icon-link:focus,
+.header-contact-icon-link:hover{
+    color: #2196F3;
+}
+
 /* ------------- Hero --------------- */
 
 .hero{
