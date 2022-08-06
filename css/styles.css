@@ -46,6 +46,10 @@ body {
     margin: -1px;
 }
 
+ul{
+    list-style-type:none;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -131,7 +135,9 @@ body {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: #2F303A;
+    background-image: url(../images/Img\ \(17\).jpg);
+    max-width: 1600px;
+    margin:auto;
 }
 .hero .container{
     padding-right: 252px;
@@ -169,6 +175,7 @@ body {
     background-color: var(--main-color);
     cursor:pointer;
     }
+
 
 /* --------------- Список переваг ------------------ */
 
@@ -263,9 +270,12 @@ body {
         margin-right: 0;
     }
 
+.card{
+    padding-bottom: 30px;
+}
 .card-text{
     padding-top:30px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .team-member{
@@ -289,6 +299,32 @@ body {
     letter-spacing: var(--def-letter-spacing);
     
     color: var(--rare-color);
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-link{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:#AFB1B8;
+}
+
+.social-icon{
+    fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color: var(--main-color);
+    color: var(--popular-color);
 }
 
 /*------------------ Footer ------------------- */
