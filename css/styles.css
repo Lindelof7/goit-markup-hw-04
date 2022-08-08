@@ -147,7 +147,10 @@ ul{
 .header-contact-icon-link:hover{
     color: #2196F3;
 }
-
+.header-icon-contact:hover,
+.header-icon-contact:focus{
+    color: #2196F3;
+}
 /* ------------- Hero --------------- */
 
 .hero{
